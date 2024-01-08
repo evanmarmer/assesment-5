@@ -73,7 +73,7 @@ describe('Testing queries.js', () => {
   test('printHumansAndAnimals', async () => {
     let result = '';
     console.log = (msg) => (result += msg);
-    result = await solution.printHumansAndAnimals();
+    await solution.printHumansAndAnimals();
     const expectedValues = [
       'Bob',
       'Fluffy',

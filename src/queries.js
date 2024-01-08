@@ -68,9 +68,9 @@ let str = ''
         }
     }
     str = str.slice(1)
-    return str
+    console.log(str) 
 }
- console.log(await printHumansAndAnimals())
+ await printHumansAndAnimals()
 
 
 // Return a Set containing the full names of all humans
